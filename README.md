@@ -1,57 +1,119 @@
-# 📊 Netflix Content Analysis Dashboard
+📊 Netflix Content Analysis – Power BI Project
+📝 Project Overview
+This Power BI project explores Netflix’s content library using a publicly available dataset. The goal is to uncover insights into Netflix's global content strategy, genre distribution, content ratings, and trends over time using interactive dashboards.
 
-## 🎬 Overview
-The **Netflix Content Analysis Dashboard** is a Power BI project designed to provide insights into Netflix's content library. It helps analyze content growth, user ratings, genre distribution, and country-wise availability, enabling data-driven decisions for content strategy and recommendations.
+🎯 Problem Statement
+"What does Netflix’s content library reveal about its content strategy across different countries, genres, release periods, and audience types?"
 
-## 🚀 Features & Insights
-- **Financial & Market Insights** 💰 – Tracks revenue impact and content performance.
+The analysis aims to answer questions such as:
 
-![image](https://github.com/user-attachments/assets/6b7f6450-cde4-4359-ba34-5ff8e9ff1c11)
+What is the composition of Netflix’s library by type, country, and rating?
+
+Which countries and genres dominate the platform?
+
+How has content evolved over time?
+
+What is the distribution of content by audience rating?
+
+📁 Dataset
+Source: Kaggle - Netflix Movies and TV Shows
+
+File: netflix.csv
+
+Fields:
+
+show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description
+
+📊 Dashboards Created
+1. 📦 Content Overview Dashboard
+Total Titles, Movies, and TV Shows
+
+Total contributing countries
+
+Top 3 countries by content count
+
+KPIs and donut charts for content type split
+
+2. 🎭 Content Type & Genre Dashboard
+Stacked bar: Content Type vs Genre
+
+Treemap: Top 15 Genres
+
+Pie chart: Ratings distribution by Type
+
+Slicers: Genre & Type
+
+3. 🌍 Geographic Distribution Dashboard
+Map: Count of Titles by Country
+
+Bar Chart: Top 10 Countries by content
+
+Matrix: Country vs Genre
+
+Slicer: Filter by Country
+
+4. 📈 Time Trends Dashboard
+Line chart: Titles added per year by Type
+
+Multi-line chart: Genre trends over time
+
+Histogram: Releases per year
+
+Filters: Year Added, Release Year
+
+5. 🎯 Content Ratings & Audience Dashboard
+Bar chart: Titles by Rating
+
+Grouped Bar: Rating vs Type
+
+Donut Chart: Ratings by Genre
+
+Slicers: Rating, Type
+
+⚙️ Power BI Features Used
+Power Query for data cleaning (genre & country splitting, null handling)
+
+Custom columns (Year Added, Genre Cleaned, Country Cleaned)
+
+Slicers and page-level filters
+
+Page Navigation with icons for multi-dashboard experience
+
+Conditional formatting in Matrix visuals
+
+DAX Measures for KPIs and year-wise trends
+
+🧠 Key Insights
+The US dominates Netflix’s content, followed by India and the UK
+
+Most content is geared toward mature audiences (TV-MA, R)
+
+Drama, International, and Documentaries are the most common genres
+
+Content addition spiked after 2016
+
+Genres like Anime and Reality TV have grown rapidly in recent years
+
+📌 Tools Used
+Power BI Desktop
+
+Power Query
+
+DAX (Calculated Columns & Measures)
+
+🧩 Future Enhancements
+Add audience sentiment analysis using reviews (external sources)
+
+Predict genre trends using Python/R in Power BI
+
+Build a recommendation simulation using filters and logic
+
+🙋‍♂️ Author
+[Your Name]
+Business/Data Analyst | Power BI Enthusiast
+
+[[LinkedIn Profile](https://www.linkedin.com/in/bhavyabalyan/)] | [[Portfolio] (https://www.datascienceportfol.io/bhavyabalyan)] | [GitHub] - https://github.com/BhavyaBalyan]
 
 
-
-- **Genre-Wise Distribution** 🎭 – Provides insights into popular genres and their trends.
-
-![image](https://github.com/user-attachments/assets/eb6e7433-15c1-4dbc-bfdf-7174216714ca)
-
-
-
-- **Content by Country** 🌍 – Shows country-wise availability and regional content trends.
-
- ![image](https://github.com/user-attachments/assets/6c05dd73-ccb7-4730-8cb0-a8e8efb87a76)
-
-
-
-- **Content Growth Over Time** 📈 – Visualizes the expansion of Netflix's library across different years.
-
-![image](https://github.com/user-attachments/assets/68ceb4b2-d063-46e7-a2bd-2918a1be53b8)
-
-
-  
-- **User Ratings & Reviews** ⭐ – Analyzes audience feedback, average ratings, and top-performing content.
-
-![image](https://github.com/user-attachments/assets/cb46ce50-4bd4-4353-82bb-4e1307ea693e)
-
-
-
-
-## 📂 Data Sources
-- Netflix Titles Dataset (Publicly available)
-- User Ratings & Reviews
-
-## 🛠 Tools & Technologies
-- **Power BI** – Dashboard creation and visualization
-- **Excel / SQL** – Data preprocessing and transformation
-- **DAX** – Custom calculations and measures
-
-## 📊 Visualizations
-- Interactive charts, KPI cards, and heatmaps
-- Dynamic filters for detailed analysis
-- Time-series trends and country-based segmentation
-
-## 🎯 Business Use Cases
-- Helps **content strategists** understand audience preferences.
-- Assists **marketing teams** in planning regional promotions.
-- Supports **data analysts** in identifying content trends.
 
 
