@@ -109,7 +109,7 @@ Predict genre trends using Python/R in Power BI
 Build a recommendation simulation using filters and logic
 
 🙋‍♂️ Author
-[Your Name]
+Bhavya
 Business/Data Analyst | Power BI Enthusiast
 
 [[LinkedIn Profile](https://www.linkedin.com/in/bhavyabalyan/)] | [[Portfolio] (https://www.datascienceportfol.io/bhavyabalyan)] | [GitHub] - https://github.com/BhavyaBalyan]
